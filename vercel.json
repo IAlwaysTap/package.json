@@ -1,9 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/whitelist.js", "use": "@vercel/node" }
+    {
+      "src": "api/whitelist.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/api/whitelist.js" }
+    {
+      "src": "/(.*)",
+      "dest": "/api/whitelist.js"
+    }
   ]
 }
