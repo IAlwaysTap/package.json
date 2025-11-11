@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/whitelist",
+      "src": "/(.*)",
       "dest": "/api/whitelist.js"
     }
   ]
