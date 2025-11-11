@@ -1,0 +1,7 @@
+{
+  "name": "whitelist-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "@octokit/core": "^5.0.0"
+  }
+}
